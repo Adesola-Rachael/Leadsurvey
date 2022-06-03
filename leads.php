@@ -410,6 +410,10 @@ $compulsory_part_query = "user_id = '$id' AND status !='trashed'";
   </div>
 <!-- ./Modal -->
 
+
+
+
+  <!-- Modal to add new lead -->
   <!-- Modal to add new lead -->
   <div class="modal fade" id="id_new_lead">
     <div class="modal-dialog">
@@ -573,7 +577,6 @@ $compulsory_part_query = "user_id = '$id' AND status !='trashed'";
                 <select id="country_Id" name="country" class="form-control  countries" required >
                 <option value="">Select Country</option>
                 </select>  
-                <!-- <input name="state" id="stateId" type="text" class="form-control states" placeholder="Enter your State/Province/Region..." required>                -->
                 </div>
               </div>
               <div class="col-sm-6">

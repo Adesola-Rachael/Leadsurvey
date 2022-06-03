@@ -1,4 +1,5 @@
  // CREATE NEW LEAD 
+ $
  $('#id_new_lead').submit('#id_new_lead_submit',function(e){
     e.preventDefault();
     $('.loading-spinner').toggleClass('active');
@@ -13,7 +14,6 @@
       'country' : $('#countryId').val(),
       'new_lead_submit' : ''
     }
-
     console.log(formData);
     $.ajax({
       url: 'forms/form_new_lead.php',

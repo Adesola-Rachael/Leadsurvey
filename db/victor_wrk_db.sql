@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 15, 2021 at 06:32 PM
+-- Generation Time: Jun 03, 2022 at 11:23 AM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 8.0.8
 
@@ -48,13 +48,25 @@ CREATE TABLE `campaigns` (
 --
 
 INSERT INTO `campaigns` (`sn`, `user_id`, `title`, `descr`, `duration`, `goal`, `start_date`, `end_date`, `feedback_tool`, `feedback_data`, `status`, `time_modified`, `time_created`) VALUES
-(8, 'elpadjo', 'Create New Campaign 3', 'Create New Campaign Create New Campaign Create New Campaign', 10, 100, '24 May 2021', '02 Aug 2021', 'survey', '', 'not-started', '2021-05-24 18:47:50', '2021-05-14 17:41:31'),
-(9, 'elpadjo', 'Create New Campaign 3', 'Create New Campaign Create New Campaign Create New Campaign', 10, 100, '24 May 2021', '02 Aug 2021', 'quiz', '', 'trashed', '2021-06-10 10:45:34', '2021-05-14 20:58:07'),
-(10, 'elpadjo', 'Overview of the design with CSS 1', 'Create try', 1, 4, '14 May 2021', '21 May 2021', 'quiz', NULL, 'ongoing', '2021-05-24 18:47:30', '2021-05-14 21:29:01'),
-(11, 'elpadjo', 'Create Edit Now 4', 'Create Edit Campaign  Create Edit Campaign', 8, 30, '14 May 2021', '09 Jul 2021', 'poll', '', 'ended', '2021-05-24 19:53:55', '2021-05-14 21:56:48'),
-(12, 'elpadjo', 'vest into right now', 'Describe vest into right now', 3, 15, '15 May 2021', '05 Jun 2021', 'quiz', NULL, 'ongoing', '2021-05-24 18:48:25', '2021-05-15 14:56:07'),
-(13, 'treasure', 'name', 'thios ia the description', 10, 3, '15 Dec 2021', '23 Feb 2022', 'quiz', '', 'not-started', '2021-12-15 13:18:55', '2021-12-15 13:18:55'),
-(14, 'treasure', 'name', 'thios ia the description', 10, 3, '15 Dec 2021', '23 Feb 2022', 'quiz', '', 'not-started', '2021-12-15 13:18:58', '2021-12-15 13:18:58');
+(8, 'elpadjo', 'Create New Campaign 3', 'Create New Campaign Create New Campaign Create New Campaign', 10, 100, '24 May 2021', '02 Aug 2021', 'survey', '', 'ongoing', '2021-12-22 14:01:13', '2021-05-14 17:41:31'),
+(9, 'elpadjo', 'Create New Campaign 3', 'Create New Campaign Create New Campaign Create New Campaign', 10, 100, '24 May 2021', '02 Aug 2021', 'quiz', '', 'ongoing', '2021-12-22 14:07:20', '2021-05-14 20:58:07'),
+(10, 'elpadjo', 'Overview of the design with CSS 1', 'Create try', 1, 4, '14 May 2021', '21 May 2021', 'quiz', NULL, 'ongoing', '2021-12-22 14:06:32', '2021-05-14 21:29:01'),
+(11, 'elpadjo', 'Create Edit Now 4', 'Create Edit Campaign  Create Edit Campaign', 8, 30, '14 May 2021', '09 Jul 2021', 'poll', '', 'not-started', '2021-12-22 14:06:42', '2021-05-14 21:56:48'),
+(12, 'elpadjo', 'vest into right now', 'Describe vest into right now', 3, 15, '15 May 2021', '05 Jun 2021', 'quiz', NULL, 'not-started', '2021-12-22 14:06:09', '2021-05-15 14:56:07'),
+(13, 'treasure', 'name', 'thios ia the description', 10, 3, '15 Dec 2021', '23 Feb 2022', 'quiz', '', 'ongoing', '2021-12-22 14:04:16', '2021-12-15 13:18:55'),
+(14, 'treasure', 'name', 'thios ia the description', 10, 3, '15 Dec 2021', '23 Feb 2022', 'quiz', '', 'not-started', '2021-12-22 14:04:16', '2021-12-15 13:18:58'),
+(15, 'treasure', 'hhjjh', 'jhjjhj', 5, 76, '16 Dec 2021', '20 Jan 2022', 'survey', '', 'ongoing', '2021-12-22 14:04:16', '2021-12-16 04:59:28'),
+(16, 'treasure', 'yuyu', 'jk', 6, 9, '16 Dec 2021', '27 Jan 2022', 'survey', '', 'ongoing', '2021-12-22 14:04:17', '2021-12-16 04:59:48'),
+(17, 'treasure', 'u', 'iik', 6, 7, '16 Dec 2021', '27 Jan 2022', 'survey', '', 'not-started', '2021-12-22 14:04:17', '2021-12-16 05:00:11'),
+(18, 'treasure', 'yuyu', 'uu', 67, 8, '16 Dec 2021', '30 Mar 2023', 'survey', '', 'ongoing', '2021-12-22 14:04:17', '2021-12-16 05:00:30'),
+(19, 'treasure', 'yyu', 'uuu', 12, 12, '16 Dec 2021', '10 Mar 2022', 'quiz', '', 'trashed', '2022-01-02 16:20:00', '2021-12-16 05:01:06'),
+(20, 'treasure', 'uh', 'uu', 12, 7, '16 Dec 2021', '10 Mar 2022', 'quiz', '', 'ongoing', '2021-12-22 14:04:17', '2021-12-16 05:01:28'),
+(21, 'treasure', 'yuyu', 'yu', 6, 6, '16 Dec 2021', '27 Jan 2022', 'survey', '', 'trashed', '2022-01-02 16:33:29', '2021-12-16 05:02:21'),
+(22, 'treasure', 'y66', '8', 7, 7, '16 Dec 2021', '03 Feb 2022', 'poll', '', 'trashed', '2021-12-22 14:04:57', '2021-12-16 05:02:39'),
+(23, 'treasure', 'uu', 'fghj', 12, 9, '16 Dec 2021', '10 Mar 2022', 'survey', '', 'trashed', '2021-12-22 14:05:11', '2021-12-16 05:03:20'),
+(24, 'treasure', 'uu', 'fghj', 12, 9, '16 Dec 2021', '10 Mar 2022', 'survey', '', 'trashed', '2021-12-22 14:04:45', '2021-12-16 05:03:23'),
+(25, 'treasure', 'uu', '', 12, 9, '16 Dec 2021', '10 Mar 2022', 'survey', '', 'trashed', '2022-01-02 16:33:06', '2021-12-16 05:03:25'),
+(26, 'bolatito', 'New Campaign1', 'This is a new campaign', 2, 10, '03 Jun 2022', '17 Jun 2022', 'quiz', '', 'not-started', '2022-06-03 02:40:55', '2022-06-03 02:40:55');
 
 -- --------------------------------------------------------
 
@@ -357,7 +369,7 @@ CREATE TABLE `leads` (
   `email` varchar(100) NOT NULL,
   `full_name` varchar(100) DEFAULT NULL,
   `phone_number` varchar(20) DEFAULT NULL,
-  `country_abbr` varchar(20) NOT NULL,
+  `country_abbr` varchar(10) NOT NULL,
   `state` varchar(50) DEFAULT NULL,
   `country` varchar(100) DEFAULT NULL,
   `address` varchar(150) DEFAULT NULL,
@@ -374,35 +386,28 @@ CREATE TABLE `leads` (
 --
 
 INSERT INTO `leads` (`sn`, `user_id`, `campaign_id`, `campaign`, `lead_tool_id`, `lead_tool_type`, `email`, `full_name`, `phone_number`, `country_abbr`, `state`, `country`, `address`, `gender`, `agegroup`, `date_created`, `status`, `time_modified`, `time_created`) VALUES
-(1, 'elpadjo', 10, 'Best Campaign', 3, 'survey', 'josserayz@gmail.com', 'Dosubi Joshua', '08039211989', '', 'Lagos', 'Nigeria', '---', 'Male', '25-64', '2021-06-10', 'active', '2021-06-11 10:38:22', '2021-06-10 11:28:51'),
-(2, 'elpadjo', 0, 'Upload', 0, 'Manual', 'padjomag@gmail.com', 'Padjo', '08036989654', '', 'Lagos State', 'Nigeria', NULL, 'Male', '15-24', '2021-06-11', 'active', '2021-06-12 13:28:00', '2021-06-11 17:39:00'),
-(3, 'treasure', 0, 'Upload', 0, 'Manual', 'hit@gmail.com', 'Kings Hitman', '+23481225890', '', 'Abuja', 'Nigeria', NULL, 'Male', '25-64', '2021-12-13', 'trashed', '2021-12-13 08:37:25', '2021-12-13 08:07:50'),
-(20, 'treasure', 0, 'Upload', 0, 'Manual', 'gtreasure162@gmail.com', 'treasure', '081635907111', '', 'Grodnenskaya', 'Belarus', NULL, 'Male', '<15', '2021-12-13', 'trashed', '2021-12-15 13:37:14', '2021-12-13 08:48:06'),
-(21, 'treasure', 0, 'Upload', 0, 'Manual', 'gtreasur11e162@gmail.com', 'treasure', '0816359071111', '', 'Ondo', 'Nigeria', NULL, 'Male', '15-24', '2021-12-13', 'trashed', '2021-12-14 14:55:38', '2021-12-13 08:49:17'),
-(22, 'elpadjo', 0, 'Upload', 0, 'Manual', 'rachaeladesolami1616@gmail.com', 'treasure', '000', '', 'Ondo', 'Nigeria', NULL, 'Male', '15-24', '2021-12-13', 'active', '2021-12-13 09:26:03', '2021-12-13 09:26:03'),
-(23, 'treasure', 0, 'Upload', 0, 'Manual', 'bola@gmail.com', 'Tolu', '7787878', '', 'Kebbi', 'Nigeria', NULL, 'Male', '15-24', '2021-12-14', 'trashed', '2021-12-15 10:52:50', '2021-12-14 15:02:51'),
-(24, 'treasure', 0, 'Upload', 0, 'Manual', 'tife@gmail.com', 'boluwatife', '123344433', '', 'ondo', 'Bahrain', NULL, 'Female', '15-24', '2021-12-14', 'trashed', '2021-12-15 10:52:51', '2021-12-14 17:53:13'),
-(25, 'treasure', 0, 'Upload', 0, 'Manual', 'gtreasure@gmail.com', 'Lola', '+12345', '', 'ondo', 'Bahrain', NULL, 'Male', '15-24', '2021-12-15', 'trashed', '2021-12-15 13:37:14', '2021-12-15 09:28:18'),
-(26, 'treasure', 0, 'Upload', 0, 'Manual', 'ko@gmail.com', 'Bolami', '+2348163590610', '', 'Benue', 'Nigeria', NULL, 'Male', '15-24', '2021-12-15', 'trashed', '2021-12-15 10:53:35', '2021-12-15 10:13:56'),
-(27, 'treasure', 0, 'Upload', 0, 'Manual', 'ai45u@gmail.com', 'yisa', '4838743', 'BD', 'Rajshahi', 'Bangladesh', NULL, 'Male', '25-64', '2021-12-15', 'active', '2021-12-15 17:17:19', '2021-12-15 10:18:14'),
-(28, 'treasure', 0, 'Upload', 0, 'Manual', 'tr@gmail.com', 'newe name', 'r453678865', '', 'Abseron', 'Azerbaijan', NULL, 'Male', '25-64', '2021-12-15', 'trashed', '2021-12-15 13:46:31', '2021-12-15 10:32:48'),
-(29, 'treasure', 0, 'Upload', 0, 'Manual', 'helo@gmail.com', 'name', '111', '', 'Corozal', 'Belize', NULL, 'Male', '15-24', '2021-12-15', 'trashed', '2021-12-15 13:46:31', '2021-12-15 10:44:54'),
-(30, 'treasure', 0, 'Upload', 0, 'Manual', 'maio@gmail.com', 'name', '12345', 'BD', 'Chittagong', 'Bangladesh', NULL, 'Female', '15-24', '2021-12-15', 'active', '2021-12-15 17:17:27', '2021-12-15 12:53:33'),
-(31, 'treasure', 0, 'Upload', 0, 'Manual', 'mom@gmail.com', 'male', '334', 'BY', 'Minsk City', 'Belarus', NULL, 'Male', '25-64', '2021-12-15', 'active', '2021-12-15 17:17:35', '2021-12-15 12:55:23'),
-(32, 'treasure', 0, 'Upload', 0, 'Manual', 'exam@gmail.com', 'name', '+1234', '', 'Brest', 'Belarus', NULL, 'Male', '15-24', '2021-12-15', 'active', '2021-12-15 13:00:31', '2021-12-15 13:00:31'),
-(33, 'treasure', 0, 'Upload', 0, 'Manual', 'gre111a@gmail.com', 'Olanipekun', '081561123111', '', 'Niger', 'Aba', NULL, 'Female', '25-59', '2021-12-15', 'active', '2021-12-15 13:01:36', '2021-12-15 13:01:36'),
-(34, 'treasure', 0, 'Upload', 0, 'Manual', 'aba@gmail.com', 'Olanipekun', '0815611123111', '', 'Niger', 'Moroco', NULL, 'Female', '15-24', '2021-12-15', 'active', '2021-12-15 13:01:36', '2021-12-15 13:01:36'),
-(35, 'treasure', 0, 'Upload', 0, 'Manual', 'gtre162@gmail.com', 'treasure', '812430765', 'AU', 'Tasmania', 'Australia', NULL, 'Female', '25-64', '2021-12-15', 'active', '2021-12-15 17:17:48', '2021-12-15 13:01:36'),
-(36, 'treasure', 0, 'Upload', 0, 'Manual', 'bob@gmail.com', 'Tolulope', '08156348709', '', 'kokoroko', 'Americal', NULL, 'Male', '25-64', '2021-12-15', 'active', '2021-12-15 13:01:36', '2021-12-15 13:01:36'),
-(37, 'treasure', 0, 'Upload', 0, 'Manual', 'jola@gmail.com', 'treasure', '453535', '', 'Kebbi', 'Aba', NULL, 'Male', '15-24', '2021-12-15', 'active', '2021-12-15 13:01:36', '2021-12-15 13:01:36'),
-(38, 'treasure', 0, 'Upload', 0, 'Manual', 'sure162@gmail.com', 'treasure', '0819071009878', '', 'Ondo', 'Nigeria', NULL, 'Female', '15-24', '2021-12-15', 'active', '2021-12-15 13:01:36', '2021-12-15 13:01:36'),
-(39, 'treasure', 0, 'Upload', 0, 'Manual', 'bob89@gmail.com', 'treasure', '76876', '', 'Osun', 'Aba', NULL, 'Male', '15-24', '2021-12-15', 'active', '2021-12-15 13:01:36', '2021-12-15 13:01:36'),
-(40, 'treasure', 0, 'Upload', 0, 'Manual', 'ab89oooa@gmail.com', 'treasure', '08169071', 'BE', 'Wallonia', 'Belgium', NULL, 'Female', '15-24', '2021-12-15', 'active', '2021-12-15 17:17:57', '2021-12-15 13:01:36'),
-(41, 'treasure', 0, 'Upload', 0, 'Manual', 'g62@gmail.com', 'treasure', '0816357789789071', '', 'Ondo', 'Togo', NULL, 'Male', '15-24', '2021-12-15', 'active', '2021-12-15 13:01:36', '2021-12-15 13:01:36'),
-(42, 'treasure', 0, 'Upload', 0, 'Manual', 'a.@gmail.com', 'male', '1234566', '', 'Saint Lucy', 'Barbados', NULL, 'Male', '25-64', '2021-12-15', 'active', '2021-12-15 13:14:25', '2021-12-15 13:14:25'),
-(43, 'treasure', 0, 'Upload', 0, 'Manual', 'email@gmail.com', 'name', '12345098', '', 'Gomel', 'Belarus', NULL, 'Male', '15-24', '2021-12-15', 'active', '2021-12-15 13:30:13', '2021-12-15 13:30:13'),
-(44, 'treasure', 0, 'Upload', 0, 'Manual', 'name@gmail.com', 'nmae', '123458978', '', 'Muharraq', 'Bahrain', NULL, 'Female', '25-64', '2021-12-15', 'active', '2021-12-15 15:16:11', '2021-12-15 15:16:11'),
-(45, 'treasure', 0, 'Upload', 0, 'Manual', 'e@gmail.com', 'name', '123455678', 'BD', 'Sylhet', 'Bangladesh', NULL, 'Male', '15-24', '2021-12-15', 'active', '2021-12-15 17:18:05', '2021-12-15 15:51:04');
+(1, 'elpadjo', 10, 'Best Campaign', 3, 'survey', 'josserayz@gmail.com', 'Dosubi Joshua', '08039211989', '', 'Lagos', 'Nigeria', '---', 'Male', '25-64', '2021-06-10', '[active]', '2022-01-02 17:28:51', '2021-06-10 11:28:51'),
+(2, 'elpadjo', 0, 'Upload', 0, 'Manual', 'padjomag@gmail.com', 'Padjo', '08036989654', '', 'Lagos State', 'Nigeria', NULL, 'Male', '15-24', '2021-06-11', '[active]', '2022-01-02 17:28:51', '2021-06-11 17:39:00'),
+(94, 'treasure', 0, 'Upload', 0, 'Manual', 'si@gmail.com', 'sic', '344434', 'pm', 'bles', 'buo', NULL, '', '20-24', '2022-02-25', 'active', '2022-02-25 10:58:06', '2022-02-25 10:58:06'),
+(95, 'treasure', 0, 'Upload', 0, 'Manual', 'ai45uyy@gmail.com', 'yisa', '483yy8743', 'BJ', 'Alibori', 'Benin', NULL, 'Male', '25-64', '2022-02-25', 'active', '2022-02-25 10:58:06', '2022-02-25 10:58:06'),
+(96, 'treasure', 0, 'Upload', 0, 'Manual', 'mayny@gmail.com', 'many', '123555545', 'MD', 'Lagos', 'Nigeria', NULL, '', '23-30', '2022-02-25', 'active', '2022-02-25 10:58:07', '2022-02-25 10:58:07'),
+(97, 'treasure', 0, 'Upload', 0, 'Manual', 'siyy@gmail.com', 'sic', '34445534', 'pm', 'bles', 'buo', NULL, '', '20-24', '2022-02-25', 'active', '2022-02-25 10:58:07', '2022-02-25 10:58:07'),
+(98, 'treasure', 0, 'Upload', 0, 'Manual', 'simy@gmail.com', 'myname', '3455654434', 'pm', 'lai', 'main', NULL, '', '22-32', '2022-02-25', 'active', '2022-02-25 10:58:07', '2022-02-25 10:58:07'),
+(99, 'treasure', 0, 'Upload', 0, 'Manual', 'me@gmail.com', 'name', '11111111111111', 'BY', 'Gomel', 'Belarus', NULL, 'Male', '15-24', '2022-02-25', 'active', '2022-02-25 10:58:07', '2022-02-25 10:58:07'),
+(100, 'treasure', 0, 'Upload', 0, 'Manual', 'me1@gmail.com', 'namenme', '11111110001111111', 'AT', 'Lower Austria', 'Austria', NULL, 'Male', '64+', '2022-02-25', 'active', '2022-02-25 10:58:07', '2022-02-25 10:58:07'),
+(101, 'treasure', 0, 'Upload', 0, 'Manual', 'me12@gmail.com', 'namenmeme', '1111111001101111111', 'BD', 'Rangpur Division', 'Bangladesh', NULL, 'Male', '64+', '2022-02-25', 'active', '2022-02-25 10:58:07', '2022-02-25 10:58:07'),
+(102, 'treasure', 0, 'Upload', 0, 'Manual', 'nee@gmail.com', 'network', '880968', 'AD', 'Encamp', 'Andorra', NULL, 'Male', '15-24', '2022-02-25', 'active', '2022-02-25 10:58:07', '2022-02-25 10:58:07'),
+(103, 'treasure', 0, 'Upload', 0, 'Manual', 'neie@gmail.com', 'network', '88092368', 'BH', 'Southern Governorate', 'Bahrain', NULL, 'Male', '15-24', '2022-02-25', 'active', '2022-02-25 10:58:07', '2022-02-25 10:58:07'),
+(104, 'treasure', 0, 'Upload', 0, 'Manual', 'ie@gmail.com', 'Berlin', '8809230068', 'BY', 'Grodnenskaya', 'Belarus', NULL, 'Female', '15-24', '2022-02-25', 'active', '2022-02-25 11:03:18', '2022-02-25 10:58:07'),
+(105, 'treasure', 0, 'Upload', 0, 'Manual', 'Sola@gmail.com', 'name', '+23481634412', 'BB', 'Saint Philip', 'Barbados', NULL, 'Male', '25-64', '2022-02-25', 'active', '2022-02-25 11:02:23', '2022-02-25 10:58:07'),
+(106, 'treasure', 0, 'Upload', 0, 'Manual', 'my@gmail.com', 'myname', '901235678', 'BE', 'Brussels Capital', 'Belgium', NULL, 'Female', '15-24', '2022-02-25', 'trashed', '2022-02-25 11:43:25', '2022-02-25 10:58:07'),
+(107, 'treasure', 0, 'Upload', 0, 'Manual', 'man@gmail.com', 'newname', '90909090', 'BY', 'Minsk', 'Belarus', NULL, 'Male', '15-24', '2022-02-25', 'trashed', '2022-02-25 11:43:02', '2022-02-25 10:58:41'),
+(108, 'treasure', 0, 'Upload', 0, 'Manual', 'bol@gmail.com', 'bola', '808080', 'BE', 'Brussels Capital', 'Belgium', NULL, 'Male', '25-64', '2022-02-25', 'trashed', '2022-02-25 11:42:10', '2022-02-25 11:10:50'),
+(109, 'bolatito', 0, 'Upload', 0, 'Manual', 'maki@gmail.com', 'my name', '09809879', 'NE', 'Zinder', 'Niger', NULL, 'Male', '15-24', '2022-06-03', 'active', '2022-06-03 02:32:59', '2022-06-03 02:32:59'),
+(110, 'bolatito', 0, 'Upload', 0, 'Manual', 'fila@gmail.com', 'mila', '86657890', 'BH', 'Southern Governorate', 'Bahrain', NULL, 'Male', '25-64', '2022-06-03', 'active', '2022-06-03 02:33:01', '2022-06-03 02:33:01'),
+(111, 'bolatito', 0, 'Upload', 0, 'Manual', 'Alima@gmail.com', 'Kemi Adams', '+234 8163490619', 'DZ', 'Jijel', 'Algeria', NULL, 'Male', '15-24', '2022-06-03', 'active', '2022-06-03 02:36:35', '2022-06-03 02:36:35'),
+(112, 'Amaka', 0, 'Upload', 0, 'Manual', 'nono@gmail.com', 'name', '+1234', 'UA', 'Volyn', 'Ukraine', NULL, 'Male', '15-24', '2022-06-03', 'active', '2022-06-03 09:04:10', '2022-06-03 08:59:19'),
+(113, 'Amaka', 0, 'Upload', 0, 'Manual', 'yh@gmail.com', 'Aminat', '456789', 'BY', 'Brest', 'Belarus', NULL, 'Male', '25-64', '2022-06-03', 'active', '2022-06-03 09:06:22', '2022-06-03 09:05:03');
 
 -- --------------------------------------------------------
 
@@ -517,8 +522,11 @@ CREATE TABLE `user_auth` (
 --
 
 INSERT INTO `user_auth` (`sn`, `user_name`, `password`, `access_level`, `user_type`, `email`, `hash`, `plan`, `verification_id`, `verifircation_status`, `status`, `time_created`, `time_modified`) VALUES
-(1, 'elpadjo', '$2y$10$o035ZgAM17Bx4MFeYXSfuORF0LlAt/AZHvEQb7u./OOegFh8Vox82', 0, 'client', 'josserayz@gmail.com', '389bc7bb1e1c2a5e7e147703232a88f6', '', NULL, 0, 'registered', '2021-04-05 23:26:17', '2021-04-05 22:26:17'),
-(13, 'treasure', '$2y$10$yp7J2qn.dseg50rXqHviRuN/hPu9B2Jbnw5ZMCHKbGorwYPx3Bp92', 0, 'client', 'gtreasure162@gmail.com', 'df7f28ac89ca37bf1abd2f6c184fe1cf', '', 'a597e50502f5ff68e3e25b9114205d4a', 1, 'registered', '2021-12-13 16:35:25', '2021-12-13 15:35:25');
+(29, 'Joshua', '$2y$10$m5HeXtWxh7kU3NS/SZUe5uPt7YPjC/TcXIlSOAyrW1Bml.2gmoA/C', 0, 'client', 'jvine300@gmail.com', '45645a27c4f1adc8a7a835976064a86d', '', '17d63b1625c816c22647a73e1482372b', 0, 'registered', '2022-02-28 10:04:08', '2022-02-28 09:04:08'),
+(55, 'treasure', '$2y$10$.4XgYgIklkbP6BocVXW7COPOb7PePxu.tD7LDI5nBLrKiHe5u09OW', 0, 'client', 'gtreasure162@gmail.com', 'fbd7939d674997cdb4692d34de8633c4', '', '2bb232c0b13c774965ef8558f0fbd615', 0, 'registered', '2022-03-02 10:50:12', '2022-03-02 09:50:12'),
+(56, 'bolatito', '$2y$10$bje2ECBMcmwJdiu8Pl2UMemaRiUEBoAOmjoj5.ZC.OP5UEcS848fK', 0, 'client', 'rachaeladesolami1616@gmail.com', 'b337e84de8752b27eda3a12363109e80', '', '06997f04a7db92466a2baa6ebc8b872d', 1, 'registered', '2022-06-02 18:58:32', '2022-06-02 17:58:32'),
+(57, 'clara', '$2y$10$JtShtAv.9UzG00Tlk.HYYuUJAjC4hOc3LjItQ6tZjRE1zhtYT5g4y', 0, 'client', 'vic650283@gmail.com', 'cb70ab375662576bd1ac5aaf16b3fca4', '', '70efdf2ec9b086079795c442636b55fb', 0, 'registered', '2022-06-03 07:16:46', '2022-06-03 06:16:46'),
+(58, 'Amaka', '$2y$10$aclBpkRUyQWqd37Fa5AbJOrXvwY0D7TsoafwwXPvmulnz1EWANTTG', 0, 'client', 'ama@gmail.com', '2ca65f58e35d9ad45bf7f3ae5cfd08f1', '', 'b73dfe25b4b8714c029b37a6ad3006fa', 0, 'registered', '2022-06-03 07:21:31', '2022-06-03 06:21:31');
 
 -- --------------------------------------------------------
 
@@ -559,7 +567,52 @@ INSERT INTO `user_data` (`sn`, `user_name`, `full_name`, `image`, `gender`, `dob
 (10, 'trebo', 'treasure', NULL, NULL, NULL, NULL, NULL, 'rachaeladesolami1616@gmail.com', 28, 'active', '2021-12-13 13:32:56', '2021-12-13 13:32:56'),
 (11, 'treasure', 'treasure', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2021-12-13 15:13:46', '2021-12-13 15:13:46'),
 (12, 'monanai', 'treasure', NULL, NULL, NULL, NULL, NULL, 'rachaeladesolami1616@gmail.com', 28, 'active', '2021-12-13 15:20:25', '2021-12-13 15:20:25'),
-(13, 'treasure', 'treasure', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2021-12-13 15:35:25', '2021-12-13 15:35:25');
+(13, 'treasure', 'treasure', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2021-12-13 15:35:25', '2021-12-13 15:35:25'),
+(14, 'adebola', 'name', NULL, NULL, NULL, NULL, NULL, 'name@gmail.com', 28, 'active', '2021-12-16 09:59:15', '2021-12-16 09:59:15'),
+(15, 'kolintin', 'Kolinton', NULL, NULL, NULL, NULL, NULL, 'koin@gmail.com', 28, 'active', '2021-12-30 12:38:15', '2021-12-30 12:38:15'),
+(16, 'bingo', 'bola', NULL, NULL, NULL, NULL, NULL, 'bo@gmail.com', 28, 'active', '2022-01-05 14:52:24', '2022-01-05 14:52:24'),
+(17, 'eamily', 'name', NULL, NULL, NULL, NULL, NULL, 'naime@gmail.com', 28, 'active', '2022-01-06 13:50:03', '2022-01-06 13:50:03'),
+(18, 'boluwade', 'name', NULL, NULL, NULL, NULL, NULL, 'me@gmail.com', 28, 'active', '2022-01-06 13:52:01', '2022-01-06 13:52:01'),
+(19, 'treasure', 'treasure', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2022-02-25 11:55:31', '2022-02-25 11:55:31'),
+(20, 'myname', 'name', NULL, NULL, NULL, NULL, NULL, 'rachaeladesolami1616@gmail.com', 28, 'active', '2022-02-25 12:01:10', '2022-02-25 12:01:10'),
+(21, 'myname', 'name', NULL, NULL, NULL, NULL, NULL, 'rachaeladesolami1616@gmail.com', 28, 'active', '2022-02-25 12:11:52', '2022-02-25 12:11:52'),
+(22, 'treatme', 'treatme', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2022-02-25 12:13:13', '2022-02-25 12:13:13'),
+(23, 'treatme', 'treatme', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2022-02-25 12:24:55', '2022-02-25 12:24:55'),
+(24, 'myname', 'mynae', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2022-02-25 12:43:55', '2022-02-25 12:43:55'),
+(25, 'myname', 'my name', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2022-02-26 02:28:30', '2022-02-26 02:28:30'),
+(26, 'myname', 'name', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2022-02-26 02:57:35', '2022-02-26 02:57:35'),
+(27, 'rachael', 'thisname', NULL, NULL, NULL, NULL, NULL, 'rachaeladesolami1616@gmail.com', 28, 'active', '2022-02-28 08:55:57', '2022-02-28 08:55:57'),
+(28, 'rachael', 'thisname', NULL, NULL, NULL, NULL, NULL, 'rachaeladesolami1616@gmail.com', 28, 'active', '2022-02-28 09:00:44', '2022-02-28 09:00:44'),
+(29, 'Joshua', 'Joshua', NULL, NULL, NULL, NULL, NULL, 'jvine300@gmail.com', 28, 'active', '2022-02-28 09:04:08', '2022-02-28 09:04:08'),
+(30, 'deborah', 'bolanle', NULL, NULL, NULL, NULL, NULL, 'rachaeladesola@gmail.com', 28, 'active', '2022-03-01 06:51:39', '2022-03-01 06:51:39'),
+(31, 'treasure', 'bolanle', NULL, NULL, NULL, NULL, NULL, 'rachaeladesola@gmail.com', 28, 'active', '2022-03-01 06:54:10', '2022-03-01 06:54:10'),
+(32, 'treasure', 'racahel Eniola', NULL, NULL, NULL, NULL, NULL, 'rachaeladesola@gmail.com', 28, 'active', '2022-03-01 06:58:34', '2022-03-01 06:58:34'),
+(33, 'treasure', 'bola', NULL, NULL, NULL, NULL, NULL, 'rachaeladesola@gmail.com', 28, 'active', '2022-03-01 07:04:25', '2022-03-01 07:04:25'),
+(34, 'treasure', 'newname', NULL, NULL, NULL, NULL, NULL, 'rachaeladesola@gmail.com', 28, 'active', '2022-03-01 07:08:28', '2022-03-01 07:08:28'),
+(35, 'treasure', 'mynae', NULL, NULL, NULL, NULL, NULL, 'rachaeladesola@gmail.com', 28, 'active', '2022-03-01 07:11:05', '2022-03-01 07:11:05'),
+(36, 'treasure', 'myname', NULL, NULL, NULL, NULL, NULL, 'rachaeladesola@gmail.com', 28, 'active', '2022-03-01 07:26:27', '2022-03-01 07:26:27'),
+(37, 'treasure', 'treasure', NULL, NULL, NULL, NULL, NULL, 'rachaeladesola@gmail.com', 28, 'active', '2022-03-01 07:31:00', '2022-03-01 07:31:00'),
+(38, 'treasure', 'treasure', NULL, NULL, NULL, NULL, NULL, 'rachaeladesola@gmail.com', 28, 'active', '2022-03-01 07:32:02', '2022-03-01 07:32:02'),
+(39, 'treasure', 'treasure', NULL, NULL, NULL, NULL, NULL, 'rachaeladesola@gmail.com', 28, 'active', '2022-03-01 07:34:59', '2022-03-01 07:34:59'),
+(40, 'treasure', 'treasure', NULL, NULL, NULL, NULL, NULL, 'rachaeladesola@gmail.com', 28, 'active', '2022-03-01 07:39:44', '2022-03-01 07:39:44'),
+(41, 'treasure', 'myname', NULL, NULL, NULL, NULL, NULL, 'rachaeladesolami1616@gmail.com', 28, 'active', '2022-03-01 08:46:03', '2022-03-01 08:46:03'),
+(42, 'deborah', 'debo', NULL, NULL, NULL, NULL, NULL, 'debbieoluwabunmi120@gmail.com', 28, 'active', '2022-03-01 08:55:08', '2022-03-01 08:55:08'),
+(43, 'rachael', 'Rachael', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2022-03-02 03:46:08', '2022-03-02 03:46:08'),
+(44, 'treasure', 'myname', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2022-03-02 03:53:33', '2022-03-02 03:53:33'),
+(45, 'treasure', 'treasure', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2022-03-02 04:20:53', '2022-03-02 04:20:53'),
+(46, 'debonak', 'Bebo', NULL, NULL, NULL, NULL, NULL, 'debbie123@gmai.com', 28, 'active', '2022-03-02 09:11:53', '2022-03-02 09:11:53'),
+(47, 'debon12ak', 'Bebo', NULL, NULL, NULL, NULL, NULL, 'debbie12123@gmai.com', 28, 'active', '2022-03-02 09:13:18', '2022-03-02 09:13:18'),
+(48, 'bolanleo', 'name', NULL, NULL, NULL, NULL, NULL, 'bola@mail.com', 28, 'active', '2022-03-02 09:18:35', '2022-03-02 09:18:35'),
+(49, 'bolanle1o', 'name', NULL, NULL, NULL, NULL, NULL, 'bo12la@mail.com', 28, 'active', '2022-03-02 09:20:19', '2022-03-02 09:20:19'),
+(50, 'kemisola', 'name', NULL, NULL, NULL, NULL, NULL, 'bola12@mail.com', 28, 'active', '2022-03-02 09:21:19', '2022-03-02 09:21:19'),
+(51, 'elpnojo', 'name', NULL, NULL, NULL, NULL, NULL, 'bolmma@mail.com', 28, 'active', '2022-03-02 09:26:44', '2022-03-02 09:26:44'),
+(52, 'treasure', 'treasure', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2022-03-02 09:29:06', '2022-03-02 09:29:06'),
+(53, 'treasure', 'treasure', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2022-03-02 09:32:17', '2022-03-02 09:32:17'),
+(54, 'treasure', 'treasure', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2022-03-02 09:42:07', '2022-03-02 09:42:07'),
+(55, 'treasure', 'treasure', NULL, NULL, NULL, NULL, NULL, 'gtreasure162@gmail.com', 28, 'active', '2022-03-02 09:50:12', '2022-03-02 09:50:12'),
+(56, 'bolatito', 'Tanimila', NULL, NULL, NULL, NULL, NULL, 'rachaeladesolami1616@gmail.com', 28, 'active', '2022-06-02 17:58:32', '2022-06-02 17:58:32'),
+(57, 'clara', 'Clara', NULL, NULL, NULL, NULL, NULL, 'vic650283@gmail.com', 28, 'active', '2022-06-03 06:16:47', '2022-06-03 06:16:47'),
+(58, 'Amaka', 'Amaka', NULL, NULL, NULL, NULL, NULL, 'ama@gmail.com', 28, 'active', '2022-06-03 06:21:31', '2022-06-03 06:21:31');
 
 -- --------------------------------------------------------
 
@@ -714,7 +767,7 @@ ALTER TABLE `user_subscriptions`
 -- AUTO_INCREMENT for table `campaigns`
 --
 ALTER TABLE `campaigns`
-  MODIFY `sn` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `sn` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT for table `contact_us`
@@ -738,7 +791,7 @@ ALTER TABLE `feedback_tool`
 -- AUTO_INCREMENT for table `leads`
 --
 ALTER TABLE `leads`
-  MODIFY `sn` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
+  MODIFY `sn` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=114;
 
 --
 -- AUTO_INCREMENT for table `poll_questions`
@@ -768,13 +821,13 @@ ALTER TABLE `survey_questions`
 -- AUTO_INCREMENT for table `user_auth`
 --
 ALTER TABLE `user_auth`
-  MODIFY `sn` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `sn` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=59;
 
 --
 -- AUTO_INCREMENT for table `user_data`
 --
 ALTER TABLE `user_data`
-  MODIFY `sn` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `sn` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=59;
 
 --
 -- AUTO_INCREMENT for table `user_log`
